@@ -3,7 +3,7 @@ import backend
 from tkinter import messagebox
 
 window = Tk()
-window.title("library app")
+window.title("library appp")
 window.resizable(width=False,height=False)
 window.configure(bg='grey')
 
