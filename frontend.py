@@ -2,7 +2,7 @@ from tkinter import *
 import backend
 from tkinter import messagebo
 window = Tk()
-window.title("library app for alireza")
+window.title("library app")
 window.resizable(width=False,height=False)
 window.configure(bg='grey')
 
