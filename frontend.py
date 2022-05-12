@@ -114,7 +114,7 @@ def update_command():
 
 list1.bind('<<ListboxSelect>>', select_command)
 
-button1 = Button(window,text="View Alll",width=12,bg='orange',command=lambda:view_command())
+button1 = Button(window,text="View All",width=12,bg='orange',command=lambda:view_command())
 button1.grid(row=2,column=3,pady=10)
 
 button2 = Button(window,text="Search book",width=12,bg='orange',command=search_command)
