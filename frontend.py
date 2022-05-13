@@ -2,7 +2,7 @@ from tkinter import *
 import backend
 from tkinter import messagebo
 window = Tk()
-window.title("library app for alireza")
+window.title("library appppp for alireza")
 window.resizable(width=False,height=False)
 window.configure(bg='grey')
 
@@ -123,10 +123,10 @@ button2.grid(row=3,column=3,pady=10)
 button3 = Button(window,text="Add book",width=12,bg='orange',command=add_command)
 button3.grid(row=4,column=3,pady=10)
 
-button4 = Button(window,text="Update Selected",bg='orange',width=12,command=lambda:update_command())
+button4 = Button(window,text="Update Selected plz",bg='orange',width=12,command=lambda:update_command())
 button4.grid(row=5,column=3,pady=10)
 
-button5 = Button(window,text="Delete Selected",width=12,bg='orange',command=lambda:delete_command())
+button5 = Button(window,text="Delete Selected plz",width=12,bg='orange',command=lambda:delete_command())
 button5.grid(row=6,column=3,pady=10)
 
 button5 = Button(window,text="Close",width=12,bg='orange',command=lambda:close_command())
